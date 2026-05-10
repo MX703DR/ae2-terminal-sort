@@ -1,0 +1,13 @@
+{
+  "fml.menu.mods.info.description.ae2terminalsort": "为应用能源2终端添加按原版创造物品栏顺序排序的选项。\n\n添加可配置的客户端兼容性选项，可让 AE2 终端的名称排序和模组排序改用基于注册名的顺序，以改善存有大量 NBT 物品的终端响应速度。\n\n安装 JEI 时，额外添加可选的 AE2 终端排序选项，按 JEI 物品列表顺序排序。",
+  "gui.tooltips.ae2terminalsort.CreativeOrder": "创造物品栏顺序",
+  "gui.tooltips.ae2terminalsort.JeiOrder": "JEI 物品列表顺序",
+  "config.ae2terminalsort.enableCreativeSortOrder": "启用创造物品栏顺序",
+  "config.ae2terminalsort.enableCreativeSortOrder.tooltip": "启用 AE2 终端中按原版创造物品栏顺序排序的选项。",
+  "config.ae2terminalsort.enableJeiSortOrder": "启用 JEI 物品列表顺序",
+  "config.ae2terminalsort.enableJeiSortOrder.tooltip": "启用 AE2 终端中按 JEI 物品列表顺序排序的选项。",
+  "config.ae2terminalsort.optimizeNameSort": "优化名称排序",
+  "config.ae2terminalsort.optimizeNameSort.tooltip": "让 AE2 终端的名称排序改用基于注册名的顺序，而不是物品显示名称。\n\n这会改善存有大量 NBT 物品的终端响应速度。\n\n关闭后，打开存储大量物品的终端可能会直接导致游戏未响应。",
+  "config.ae2terminalsort.optimizeModSort": "优化模组排序",
+  "config.ae2terminalsort.optimizeModSort.tooltip": "让 AE2 终端的模组排序在同一模组内改用基于注册名的顺序。\n\n这会改善存有大量 NBT 物品的终端响应速度。\n\n关闭后，打开存储大量物品的终端可能会直接导致游戏未响应。"
+}

@@ -1,0 +1,13 @@
+{
+  "fml.menu.mods.info.description.ae2terminalsort": "Adds a vanilla creative inventory order sort option to Applied Energistics 2 terminals.\n\nAdds configurable client-side compatibility options that can make AE2 terminal name sorting and mod sorting use registry-name based ordering, improving responsiveness in terminals that store many NBT-heavy items.\n\nWhen JEI is installed, adds an optional AE2 terminal sort option that follows JEI's item list order.",
+  "gui.tooltips.ae2terminalsort.CreativeOrder": "Creative Tab Order",
+  "gui.tooltips.ae2terminalsort.JeiOrder": "JEI Item List Order",
+  "config.ae2terminalsort.enableCreativeSortOrder": "Enable Creative Tab Order",
+  "config.ae2terminalsort.enableCreativeSortOrder.tooltip": "Enables the AE2 terminal sort option that follows the vanilla creative tab item order.",
+  "config.ae2terminalsort.enableJeiSortOrder": "Enable JEI Item List Order",
+  "config.ae2terminalsort.enableJeiSortOrder.tooltip": "Enables the AE2 terminal sort option that follows JEI's item list order.",
+  "config.ae2terminalsort.optimizeNameSort": "Optimize Name Sort",
+  "config.ae2terminalsort.optimizeNameSort.tooltip": "Makes AE2 terminal name sorting use registry-name based ordering instead of item display names.\n\nThis improves responsiveness in terminals that store many NBT-heavy items.\n\nIf disabled, opening a terminal that stores many items may make the game stop responding.",
+  "config.ae2terminalsort.optimizeModSort": "Optimize Mod Sort",
+  "config.ae2terminalsort.optimizeModSort.tooltip": "Makes AE2 terminal mod sorting use registry-name based ordering within each mod.\n\nThis improves responsiveness in terminals that store many NBT-heavy items.\n\nIf disabled, opening a terminal that stores many items may make the game stop responding."
+}
