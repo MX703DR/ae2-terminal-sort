@@ -1,25 +1,21 @@
+# AE2 Terminal Sort
 
-Installation information
-=======
+`AE2 Terminal Sort` is a NeoForge mod for Minecraft `1.21.1` that adds extra sorting options to Applied Energistics 2 terminals.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Features
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+- Sort by creative inventory order
+- Sort by JEI item list order when JEI is installed
+- Optimizes AE2's vanilla item name sorting and mod name sorting
+- Hot-reloadable configuration toggles for mod behavior changes
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+---
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+`AE2 Terminal Sort` 是一个适用于 Minecraft `1.21.1` 的 NeoForge 模组，为 Applied Energistics 2 的终端增加额外的排序选项。
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## 功能
+
+- 按创造物品栏顺序排序
+- 按 JEI 物品列表顺序排序（如果安装了 JEI）
+- 对 AE2 原版按物品名称和模组名称排序进行了优化
+- 可热加载模组改动的配置开关

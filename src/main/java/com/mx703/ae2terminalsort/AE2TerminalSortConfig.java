@@ -15,22 +15,19 @@ public final class AE2TerminalSortConfig {
 
         ENABLE_CREATIVE_SORT_ORDER = builder
             .translation("config.ae2terminalsort.enableCreativeSortOrder")
-            .comment(
-                "Enables the AE2 terminal sort option that follows the vanilla creative tab item order.",
+            .comment("Enables the AE2 terminal sort option that follows the vanilla creative tab item order.",
                 "启用 AE2 终端中按原版创造物品栏顺序排序的选项。")
             .define("enableCreativeSortOrder", true);
         ENABLE_JEI_SORT_ORDER = builder
             .translation("config.ae2terminalsort.enableJeiSortOrder")
-            .comment(
-                "Enables the AE2 terminal sort option that follows JEI's item list order.",
+            .comment("Enables the AE2 terminal sort option that follows JEI's item list order.",
                 "启用 AE2 终端中按 JEI 物品列表顺序排序的选项。",
                 "This option is only shown when JEI is installed and its runtime is available.",
                 "只有安装 JEI 且 JEI runtime 可用时才会显示这个选项。")
             .define("enableJeiSortOrder", true);
         OPTIMIZE_NAME_SORT = builder
             .translation("config.ae2terminalsort.optimizeNameSort")
-            .comment(
-                "Makes AE2 terminal name sorting use registry-name based ordering instead of item display names.",
+            .comment("Makes AE2 terminal name sorting use registry-name based ordering instead of item display names.",
                 "让 AE2 终端的名称排序改用基于注册名的顺序，而不是物品显示名称。",
                 "This improves responsiveness in terminals that store many NBT-heavy items.",
                 "这会改善存有大量 NBT 物品的终端响应速度。",
@@ -39,8 +36,7 @@ public final class AE2TerminalSortConfig {
             .define("optimizeNameSort", true);
         OPTIMIZE_MOD_SORT = builder
             .translation("config.ae2terminalsort.optimizeModSort")
-            .comment(
-                "Makes AE2 terminal mod sorting use registry-name based ordering within each mod.",
+            .comment("Makes AE2 terminal mod sorting use registry-name based ordering within each mod.",
                 "让 AE2 终端的模组排序在同一模组内改用基于注册名的顺序。",
                 "This improves responsiveness in terminals that store many NBT-heavy items.",
                 "这会改善存有大量 NBT 物品的终端响应速度。",
